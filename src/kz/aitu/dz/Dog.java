@@ -30,19 +30,5 @@ public class Dog {
     public void bark() {
         System.out.println(name + " is barking!");
     }
-    public static void main(String[] args) {
-        Dog myDog = new Dog("Buddy", 3, "Brown");
-        myDog.printName();
-        myDog.printAge();
-        myDog.printColor();
-        String dogName = myDog.getName();
-        System.out.println("Returned name: " + dogName);
-        try{
-            myDog.setName("Max");
-            System.out.println("New name: " + myDog.getName());
-        } catch (IllegalArgumentException e) {
-            System.out.println("IllegalArgumentException: " + e.getMessage());
-        }
-        myDog.bark();
-    }
+
 }
