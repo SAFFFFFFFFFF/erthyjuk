@@ -5,6 +5,7 @@ public class Main {
 
         Dog sharik = new Dog("sharik",16,"white");
         System.out.println(sharik.getName());
+        System.out.println("Hello")
     }
 
 }
